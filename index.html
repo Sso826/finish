@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+        body {
+            margin: 0 auto;
+            width: 900px;
+        }
+        div.container {
+            overflow: hidden;
+        }
+        div.item {
+            float: left;
+            margin: 0 3px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .box {
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+            z-index: 100;
+        }
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px; top: 50px;
+            z-index: 10;
+        }
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px; top: 90px;
+            z-index: 1;
+        }
+        #box {
+            position: relative;
+            width: 400px; height: 100px;
+            border: 3px solid black;
+            overflow: scroll;
+        }
+        img {
+            float: left;
+        }
+        .img {
+            float: right;
+        }
+        .b {
+            width: 100px; height: 100px;
+            background-color: red;
+            margin: 10px; padding: 10px;
+            float: left;
+        }
+        .x {
+            width: 100px; height: 100px;
+            background-color: green;
+            margin: 10px; padding: 10px;
+            float: right;
+        }
+        #top, #bottom {
+            width: 900px;
+            margin: 10px auto;
+            background-color: blue;
+            color: white;
+        }
+        
+        #middle {
+            overflow: hidden;
+            width: 900px;
+            margin: 10px auto;
+        }
+        #left {
+            float: left; width: 400px;
+            background-color: red;
+        }
+        #right {
+            float: left; width: 500px;
+            background-color: green;
+        }
+        .ao {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>교수님종강해요</h1>
+    <div class="container">
+        <div class="item">종강</div>
+        <div class="item">휴강</div>
+        <div class="item">자퇴</div>
+        <div class="item">휴학</div>
+    </div>
+    <h1>교수님종강해요</h1>
+    <h1>교수님에이쁠주세요</h1>
+    <div id="box">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>교수님에이쁠주세요</h1>
+
+    <img src="https://pbs.twimg.com/media/F5Y4G-AbQAAmwHv.jpg" width="200px">
+    <p>푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항</p>
+    <p>난 슬플 땐 힙합을 춰 뚬칙이 뚬칙ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ난 슬플 땐 힙합을 춰 오오오예 ~~~ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ난 슬플 땐 힙합을 춰 ዽ ጿ ኈ ቼ ዽ ጿ </p>
+
+    <img src="https://pbs.twimg.com/media/F5Y4G-AbQAAmwHv.jpg" width="200px" class="img">
+    <p>푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항 ꉂꉂ(ᵔᗜᵔ*) 푸항항</p>
+    <p>난 슬플 땐 힙합을 춰 뚬칙이 뚬칙ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ난 슬플 땐 힙합을 춰 오오오예 ~~~ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ ጿ ኈ난 슬플 땐 힙합을 춰 ዽ ጿ ኈ ቼ ዽ ጿ </p>
+
+    <div class="b">누가</div>
+    <div class="b">먼저일까</div>
+
+    <div class="x">누가</div>
+    <div class="x">먼저일까</div>
+    <div>
+        <h2><b>교수님</b>: 순서를 조심해야겠지요?</h2>
+        <h2><b>나</b>: 네니오</h2>
+    </div>
+    <div class="ao">
+        <div id="top">★☆★☆【D-14/개/강】★☆★☆</div>
+        <div id="middle">
+            <div id="left">※기.상.만.해.도※ 무조건☞등.교.가.능!☜</div>
+            <div id="right">┌한.번;하;면◇졸업까지┘<br>@@@몇개월간지속@@@<br>⊙☆학생신분전원【100%등교】★⊙</div>
+        </div>
+        <div id="bottom">#/교/수/항/시/대/기#New</div>
+    </div>
+</body>
+</html>
